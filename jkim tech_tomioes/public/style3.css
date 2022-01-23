@@ -28,7 +28,36 @@ body, input, textarea {
      overflow: hidden;
      display: grid;
      grid-template-columns: repeat(2, 1fr);
+/* 
+  Define this in your CSS 
+  .ease-inTransition = Replace it by the name you want to give your transition
+*/
+
+.ease-inTransition {
+	/*Add a property and value that you like to transition. Ex: width:200px;*/
+	/* Chrome, Safari */
+	width: 500px;
+	-webkit-transition-property: width /*property*/ ;
+	-webkit-transition-duration: 1s;	/*Control the transition duration*/
+	-webkit-transition-timing-function: ease-in;	/*Control the transitionfunction*/
+	-webkit-transition-delay: 1s;	/*Control the transition start delay*/
+	/* Firefox */
+	-moz-transition-property: width/*property*/ ;
+	-moz-transition-duration: 1s;
+	-moz-transition-timing-function: ease-in;
+	-moz-transition-delay: 1s;
+	/* Standard syntax */
+	transition-property: /*property*/ ;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+	transition-delay: 1s;
 }
+
+/*Pick the action to trigger the animation - Ex: hover */
+.ease-inTransition:hover {
+	/*Set the final value for which you would like the property to transition to. Ex: width:500px;*/
+	width:500px;
+}}
 .contact-form{
     background-color: lightblue;
     position: relative;
@@ -169,6 +198,9 @@ textarea.input{
     color: transparent;
     pointer-events: none;
     z-index: 500;
+}
+#contactForm{
+	align-items: flex-start;
 }
 
 .input-container span::before, 
