@@ -1,0 +1,137 @@
+*{
+    padding: 10px;
+    margin: 0;
+}
+
+html {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-size: cover;
+    /*Photo by Jonathan Petersson from Pexels*/
+    color: blanchedalmond;
+}
+
+
+button,
+#input-el {
+    border: 2px solid;
+    border-color: #dceb0f;
+    border-radius: 10px;
+    background: 0 0;
+    box-shadow: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+    appearance: auto;
+    writing-mode: inherit;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: .8em 1.6em .8em;
+}
+
+#input-el:hover{
+    cursor: text;
+}
+#input-el{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+button{
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+h1.random-no,
+.random-roll {
+    background: rgba(91, 212, 216, 0.884);
+    border-radius: 4px;
+    padding: 5;
+    justify-content: center;
+    display: block;
+    box-shadow: dimgrey;
+
+}
+
+h2 {
+    display: block;
+    cursor: cell;
+    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color: rgba(201, 32, 173, 0.973);
+    border: salmon;
+    box-shadow: silver;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(65, 85, 85);
+    background-color: aquamarine;
+    border: blueviolet;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-shadow: 2, 5, 0 rgba(226, 20, 62, 0.87), black;
+    transition: 0.5s;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 3rem;
+    color: rgb(38, 43, 43);
+    background-color: rgb(20, 167, 118);
+    border: rgb(180, 115, 240);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-shadow: 2, 5, 0 rgba(226, 20, 116, 0.87), rgb(70, 56, 56);
+}
+
+span {
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+li {
+    border: orchid;
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
