@@ -14,6 +14,13 @@ h1{
 #message_el{
     font-style: italic;
 }
+
+.game-sect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .players{
     display: flex;
     flex-direction: column;
