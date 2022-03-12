@@ -70,7 +70,7 @@ h2{
     box-shadow: silver;
 }
 
-a{
+/* a{
     text-decoration: none;
     border: 2px solid;
     border-color: springgreen;
@@ -83,14 +83,32 @@ a{
     padding: 5px;
     transition: 0.5s;
     overflow: hidden;
-}
-a:hover{
+} */
+/* a:hover{
     text-decoration: none;
     color: rgb(38, 43, 43);
     background-color: rgb(158, 243, 215);
     border-color: skyblue;
     overflow: hidden;
+} */
+
+.dropdown-menu{
+    background-color: #212529;
 }
+.dropdown-menu a{
+    color: #ffffff;
+}
+
+.btn-outline-success:hover{
+    background-color: #fb2544;
+    border-color: #fb2544;
+}
+
+.btn-outline-success{
+    border-color: #fb2544;
+    color: #fb2544;
+}
+
 span{
     text-decoration: underline;
     font-size: 2rem;
@@ -114,6 +132,22 @@ a{
     border-radius: 10px;
     border-color: #fb2544;
     background-color: #ffffff;
+}
+
+#inputfield2, #inputfield3 {
+    padding: 0.7rem;
+    align-items: center;
+    display: flex;
+    margin: 2rem 0;
+    width: 100px;
+    border: 2;
+    border-radius: 10px;
+    border-color: #fb2544;
+    background-color: #ffffff;
+}
+.result{
+    display: flex;
+    flex-direction: column;
 }
 
 #box {

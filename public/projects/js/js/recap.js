@@ -20,30 +20,46 @@ function error() {
 
 
 //simple calculator
-let num1 = 8
-let num2 = 2
+let num1 = parseInt(document.getElementById("inputfield2").value);
+let num2 = parseInt(document.getElementById("inputfield3").value);
 let sum = document.getElementById("sum")
-document.getElementById("num1").textContent = num1
-document.getElementById("num2").textContent = num2
+let div = document.getElementById("div")
+let mult = document.getElementById("mult")
+let sub = document.getElementById("sub")
+
 
 function add() {
-    let result = num1 + num2
+    let result = var1() + var2()
     sum.textContent += result + " "
 }
 
 function subtract() {
-    let subres = num1 - num2
-    sum.textContent += subres + " "
+    let subres = var1() - var2()
+    sub.textContent += subres + " "
 }
 
 function divide() {
-    let divres = num1 / num2
-    sum.textContent += divres + " "
+    let divres = var1() / var2()
+    div.textContent += divres + " "
 }
 
 function multiply() {
-    let multres = num1 * num2
-    sum.textContent += multres + " "
+    let multres = var1() * var2()
+    mult.textContent += multres + " "
+}
+
+function var1() {
+    var num1 = parseInt(document.getElementById("inputfield2").value);
+    if (num1 > 1) {
+        return num1
+    } 
+}
+
+function var2() {
+    var num2 = parseInt(document.getElementById("inputfield3").value);
+    if (num2 > 1) {
+        return num2
+    }
 }
 
 //
