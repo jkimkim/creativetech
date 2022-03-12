@@ -20,6 +20,11 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-flow: row;
+}
+.player, .player2{
+    display: flex;
+    flex-direction: column;
 }
 button{
     border: 2px solid;
