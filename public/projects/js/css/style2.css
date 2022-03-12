@@ -1,8 +1,6 @@
 body{
     color: rgb(255, 255, 255);
     display: block;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
     background-image: url("assets/56.jpg");
@@ -18,14 +16,14 @@ h1{
 }
 .players{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 10px;
 }
 .player{
     display: flex;
     flex-direction: column;
-    float: left;
+    float: right;
     padding: 10px;
 }
 .player2{
