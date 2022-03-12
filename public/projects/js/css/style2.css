@@ -16,6 +16,11 @@ h1{
 #message_el{
     font-style: italic;
 }
+.players{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 button{
     border: 2px solid;
     border-color: goldenrod;
