@@ -20,11 +20,21 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px;
 }
-.player, .player2{
+.player{
     display: flex;
     flex-direction: column;
+    float: left;
+    padding: 10px;
 }
+.player2{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding: 10px;
+}
+
 button{
     border: 2px solid;
     border-color: goldenrod;
