@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-image: url("56.jpg");
+    background-image: url("assets/56.jpg");
     background-size: cover;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

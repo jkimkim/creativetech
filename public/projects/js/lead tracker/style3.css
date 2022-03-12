@@ -6,28 +6,31 @@
 html {
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 400px;
 }
 
 body {
     background-size: cover;
     /*Photo by Jonathan Petersson from Pexels*/
-    color: blanchedalmond;
+    background-image: url("img/logo.png");
+    background-size: cover;
+    min-width: 400px;
 }
 
 
 button,
 #input-el {
     border: 2px solid;
-    border-color: #dceb0f;
+    border-top-color: #78dbd3;
     border-radius: 10px;
-    background: 0 0;
+    border-bottom-color: #06fae6;
     box-shadow: none;
     color: #000000;
     font-weight: 700;
     font-size: 1rem;
+    background-color: linen;
     letter-spacing: 1px;
     line-height: 1;
-    text-shadow: none;
     text-decoration: none;
     text-transform: uppercase;
     transition: .3s;
@@ -35,7 +38,7 @@ button,
     writing-mode: inherit;
     -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
-    color: -internal-light-dark(black, white);
+    color: -internal-light-dark(rgb(197, 56, 56), rgb(221, 41, 41));
     letter-spacing: normal;
     word-spacing: normal;
     text-transform: none;
@@ -45,16 +48,20 @@ button,
     text-align: center;
     align-items: flex-start;
     cursor: default;
-    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    background-color: -internal-light-dark(rgb(221, 39, 39), rgb(226, 37, 37));
     box-sizing: border-box;
     margin: 0em;
     font: 400 13.3333px Arial;
     padding: 1px 6px;
     border-width: 2px;
     border-style: outset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-color: -internal-light-dark(rgb(241, 67, 67), rgb(17, 193, 236));
     border-image: initial;
     padding: .8em 1.6em .8em;
+}
+#delete-btn{
+    color: red;
+    background-color: pink;
 }
 
 #input-el:hover{
@@ -93,26 +100,24 @@ h2 {
     box-shadow: silver;
 }
 
-a {
+a  {
     text-decoration: none;
-    font-size: 2rem;
+    border: 2px solid;
+    border-color: rgb(248, 229, 247);
     color: rgb(65, 85, 85);
-    background-color: aquamarine;
-    border: blueviolet;
+    background-color: mintcream;
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
-    box-shadow: 2, 5, 0 rgba(226, 20, 62, 0.87), black;
     transition: 0.5s;
 }
 
-a:hover {
+ a:hover {
     text-decoration: none;
-    font-size: 3rem;
-    color: rgb(38, 43, 43);
-    background-color: rgb(20, 167, 118);
-    border: rgb(180, 115, 240);
+    border-color: orchid;
+    color: rgb(17, 101, 226);
+    background-color: mistyrose;
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -121,17 +126,34 @@ a:hover {
 }
 
 span {
-    text-decoration: underline;
+    text-decoration: mediumaquamarine;
     font-size: 2rem;
 }
 
 li {
     border: orchid;
+    color: lightskyblue;
     border-radius: 10px;
-
+    list-style-type: none;
+   
 }
+/* ul li::marker{
+    color: red;
+    font-size: 1.5em;
+} */
 
 a {
-    text-decoration: none;
+    text-decoration: navajowhite;
 }
 
+#ul-el {
+    color: rgb(66, 66, 54);
+    font-weight: bold;
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid;
+    border-color: orchid;
+    padding: 0px; */
+}

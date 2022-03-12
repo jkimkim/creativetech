@@ -41,6 +41,7 @@ function startGame() {
     cards = [firstCard, secondCard]
     sum = cards[0] + cards[1]
     renderGame()
+    reward()
 }
 function renderGame() {
     cardsEl.textContent = "Cards: "
@@ -95,3 +96,14 @@ function newCard() {
 // else {
 //     console.log('Not eligible! You already have one!')
 // }
+
+//lets take and award chips
+
+function reward() {
+    if (start === true && hasBlackjack === true && isAlive ===true) {
+        player.chips = player.chips + 10
+    } else if (start === true && hasBlackjack === false && isAlive === false) {
+        player.chips = player.chips - 10
+    }
+    return(player.chips)
+}
