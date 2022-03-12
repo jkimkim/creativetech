@@ -12,28 +12,30 @@
 </head>
 
 <body>
+    <nav class="game-nav"></nav>
     <h1>Blackjack</h1>
     <div class="user"></div>
-    <div class="deck"></div>
-    <div class="players">
-        <div class="player">
-            <h2>player 1</h2>
-            <p id="message_el">want to play a round?</p>
-            <p id="cards-el">Cards:</p>
-            <p id="sum-el">Sum:</p>
-            <button onclick="startGame()">START GAME</button>
-            <button onclick="newCard()">Hit Me</button>
-            <button class="stand">Stand</button>
-        </div>
+    <div class="deck">
+        <div class="players">
+            <div class="player">
+                <h2>player 1</h2>
+                <p id="message_el">want to play a round?</p>
+                <p id="cards-el">Cards:</p>
+                <p id="sum-el">Sum:</p>
+                <button onclick="startGame()">START GAME</button>
+                <button onclick="newCard()">Hit Me</button>
+                <button class="stand">Stand</button>
+            </div>
 
-        <div class="player2">
-            <h2>player 2</h2>
-            <p id="message_el">want to play a round?</p>
-            <p id="cards-el2">Cards:</p>
-            <p id="sum-el2">Sum:</p>
-            <button onclick="startGame()">START GAME</button>
-            <button onclick="newCard()">Hit Me</button>
-            <button class="stand">Stand</button>
+            <div class="player2">
+                <h2>player 2</h2>
+                <p id="message_el">want to play a round?</p>
+                <p id="cards-el2">Cards:</p>
+                <p id="sum-el2">Sum:</p>
+                <button onclick="startGame()">START GAME</button>
+                <button onclick="newCard()">Hit Me</button>
+                <button class="stand">Stand</button>
+            </div>
         </div>
     </div>
     <p id="player-el"></p>
