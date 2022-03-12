@@ -10,12 +10,19 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="player">
     <h1>Blackjack</h1>
     <p id="message_el">want to play a round?</p>
-    <p id="cards-el">Cards:</p>
+    <p id="cards-el">Your Cards:</p>
     <p id="sum-el">Sum:</p>
-    <button onclick="startGame()">START GAME</button>
     <button onclick="newCard()">New Card</button>
+    </div>
+    <div class="house">
+        <p id="message_el">want to play a round?</p>
+        <p id="cards-el">Your Cards:</p>
+        <p id="sum-el">Sum:</p>
+    </div>
+    <button onclick="startGame()">START GAME</button>
     <p id="player-el"></p>
     <script src="js/black.js"></script>
 </body> 
