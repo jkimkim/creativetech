@@ -1,7 +1,6 @@
 {
   "hosting": {
     "public": "public",
-    "site": "creativetech",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,4 +8,3 @@
     ]
   }
 }
-
