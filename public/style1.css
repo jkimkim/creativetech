@@ -417,6 +417,10 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     bottom: 2rem;
 }
 
+.hidden {
+    display: none;
+}
+
 
 @media screen and (max-width: 760px){
     .accry{
