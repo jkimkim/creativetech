@@ -411,6 +411,12 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     transform: scale(1.01);
 }
 
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
 
 @media screen and (max-width: 760px){
     .accry{
