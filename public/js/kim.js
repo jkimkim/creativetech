@@ -23,3 +23,11 @@ document.addEventListener("scroll", () => {
     backToTopButton.classList.add("hidden")
   }
 })
+
+const goToTop = () => {
+  document.body.scrollIntoView({
+    behavior: "smooth",
+  });
+};
+
+backToTopButton.addEventListener("click", goToTop)
