@@ -429,6 +429,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 
 .hidden {
+    display: hidden;
     opacity: 0%;
 }
 
