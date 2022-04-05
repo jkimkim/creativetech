@@ -413,7 +413,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 .back-to-top {
     position: fixed;
-    right: 2rem;
+    left: 2rem;
     bottom: 2rem;
     border-radius: 100%;
     background: #e03333;
