@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../hello */ \"./hello.js\");\n\nconsole.log((0,_hello__WEBPACK_IMPORTED_MODULE_0__.bro)('dude'));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJtYXBwaW5ncyI6Ijs7QUFBQTtBQUNBQyxPQUFPLENBQUNDLEdBQVIsQ0FBWUYsMkNBQUcsQ0FBQyxNQUFELENBQWYiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wdWJsaWMvLi9zcmMvaW5kZXguanM/YjYzNSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBicm8gfSBmcm9tIFwiLi4vaGVsbG9cIjtcclxuY29uc29sZS5sb2coYnJvKCdkdWRlJykpIl0sIm5hbWVzIjpbImJybyIsImNvbnNvbGUiLCJsb2ciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/index.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../hello */ \"./hello.js\");\n\nconsole.log((0,_hello__WEBPACK_IMPORTED_MODULE_0__.bro)('dude'));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJtYXBwaW5ncyI6Ijs7QUFDQTtBQUNBQyxPQUFPLENBQUNDLEdBQVIsQ0FBWUYsMkNBQUcsQ0FBQyxNQUFELENBQWYiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wdWJsaWMvLi9zcmMvaW5kZXguanM/YjYzNSJdLCJzb3VyY2VzQ29udGVudCI6WyJcclxuaW1wb3J0IHsgYnJvIH0gZnJvbSBcIi4uL2hlbGxvXCI7XHJcbmNvbnNvbGUubG9nKGJybygnZHVkZScpKSJdLCJuYW1lcyI6WyJicm8iLCJjb25zb2xlIiwibG9nIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/index.js\n");
 
 /***/ })
 
