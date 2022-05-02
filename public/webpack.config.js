@@ -10,6 +10,10 @@ module.exports = {
         contact: './contact.js',
         posts: './src/posts.js'
     },
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: '[name].bundle.js',
+    },
     
     watch: true,
     module: {
@@ -52,19 +56,23 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: "index.html",
-            filename: "./index.html"
+            filename: "./index.html",
+            chunks: ['app']
         }),
         new HtmlWebpackPlugin({
             template: "aboutme.html",
-            filename: "./aboutme.html"
+            filename: "./aboutme.html",
+            chunks:['aboutme']
         }),
         new HtmlWebpackPlugin({
             template: "contact.html",
-            filename: "./contact.html"
+            filename: "./contact.html",
+            chunks:['contact']
         }),
         new HtmlWebpackPlugin({
             template: "posts.html",
-            filename: "./posts.html"
+            filename: "./posts.html",
+            chunks:['posts']
         })
     ]
 }
