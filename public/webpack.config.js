@@ -4,7 +4,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: 'development',
     devtool: 'eval-source-map',
-    entry: './src/index.js',
+    entry: {
+        app: './src/index.js',
+        aboutme: './src/aboutme.js',
+        contact: './contact.js',
+        posts: './src/posts.js'
+    },
     
     watch: true,
     module: {
@@ -48,6 +53,18 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "index.html",
             filename: "./index.html"
+        }),
+        new HtmlWebpackPlugin({
+            template: "aboutme.html",
+            filename: "./aboutme.html"
+        }),
+        new HtmlWebpackPlugin({
+            template: "contact.html",
+            filename: "./contact.html"
+        }),
+        new HtmlWebpackPlugin({
+            template: "posts.html",
+            filename: "./posts.html"
         })
     ]
 }

@@ -1,6 +1,24 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import '../css/bootstrap.css'
+import '../style1.css'
+import '../assets/web/assets/mobirise-icons2/mobirise2.css'
+import '../assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css'
+import '../assets/web/assets/mobirise-icons/mobirise-icons.css'
+import '../assets/bootstrap/css/bootstrap.min.css'
+import '../assets/bootstrap/css/bootstrap-grid.min.css'
+import '../assets/bootstrap/css/bootstrap-reboot.min.css'
+import '../assets/animatecss/animate.css'
+import '../assets/dropdown/css/style.css'
+import '../assets/socicon/css/styles.css'
+import '../assets/socicon/css/styles.css'
+import '../assets/theme/css/style.css'
+import '../assets/mobirise/css/mbr-additional.css'
+import '../assets/mobirise/css/mbr-additional.css'
+import image from '../assets/images/passport.png'
+import '../style1.css'
+import '../style1.css'
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
