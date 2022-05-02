@@ -745,3 +745,35 @@ button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=subm
     box-shadow: 8px 8px 8px rgba(94, 104, 121, .288);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.back-to-top {
+    position: fixed;
+    left: 2rem;
+    bottom: 2rem;
+    border-radius: 100%;
+    background: #e03333;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.back-to-top:hover {
+    background: rgba(224, 51, 51, 0.659);
+}
+
+.hidden {
+    display: hidden;
+    opacity: 0%;
+}
+
+.back-to-top-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #7ac9f9;
+}
+
+.back-to-top-icon:hover {
+    color: #20cef5;
+}
