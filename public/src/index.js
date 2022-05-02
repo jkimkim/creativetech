@@ -29,4 +29,3 @@ const analytics = getAnalytics(app);
 
 import { bro } from "../hello";
 console.log(bro('dude'))
-
