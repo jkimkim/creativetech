@@ -255,7 +255,7 @@ function halfmoonOnDOMContentLoaded() {
         if (halfmoon.readCookie("halfmoon_preferredMode") == "dark-mode") {
             halfmoon.darkModeOn = true;
         } else {
-            halfmoon.darkModeOn = false;
+            halfmoon.On = false;
         }
     } else {
         // 2. If cookie does not exist, next preference is for the dark mode setting
