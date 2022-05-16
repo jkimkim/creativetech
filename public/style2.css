@@ -63,11 +63,12 @@ h1.random-no, .random-roll{
 }
 h2{
     display: block;
-    cursor: cell;
+    /* cursor: cell; */
     animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    color: rgba(201, 32, 173, 0.973);
+    color: rgba(32, 201, 201, 0.973);
     border: salmon;
     box-shadow: silver;
+    align-self: center;
 }
 
 /* a{
