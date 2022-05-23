@@ -189,9 +189,9 @@ ul {
     z-index: 1;
 }
 
-
-.update{
-    z-index: 100;
+.w-400{
+    z-index: 300;
+    overflow: hidden;
 }
 
 /* .content-wrapper{
