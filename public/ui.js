@@ -293,7 +293,7 @@ App.draw = function () {
     this.ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
   }
   else {
-    this.ctx.fillStyle = 'rgba(225, 225, 225, 0.1)';
+    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
   }
 
   //this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
