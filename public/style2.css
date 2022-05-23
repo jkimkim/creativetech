@@ -172,7 +172,7 @@ ul {
 }
 
 .frosted{
-    position: relative;
+    position: sticky;
     /* width: fit-content; */
     height: fit-content;
     margin: 1rem;
