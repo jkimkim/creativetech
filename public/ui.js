@@ -1,3 +1,6 @@
+
+
+
 // @mixin dots($count) {
 //   $text-shadow: ();
 //   @for $i from 0 through $count {
@@ -281,11 +284,18 @@ App.initDraw = function () {
 };
 App.draw = function () {
   this.drawnInLastFrame = 0;
+
   if (!this.particles.length) return false;
 
   this.ctx.beginPath();
   this.ctx.rect(0, 0, this.width, this.height);
-  this.ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+  if (document.body.classList.contains("dark-mode")) {
+    this.ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+  }
+  else {
+    this.ctx.fillStyle = 'rgba(225, 225, 225, 0.1)';
+  }
+
   //this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
   this.ctx.fill();
   this.ctx.closePath();
@@ -395,3 +405,4 @@ segmentAngleRad = function (Xstart, Ystart, Xtarget, Ytarget, realOrWeb) {
 
   return result;
 }
+
