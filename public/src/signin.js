@@ -1,14 +1,13 @@
-import './style2.css';
+import '../style2.css'
+import '../assets/halfmoon-1.1.1/css/halfmoon.css'
 import {
     hideLoginError,
     showLoginState,
-    showLoginForm,
-    showApp,
     showLoginError,
     btnLogin,
     btnSignup,
     btnLogout
-} from './ui2'
+} from './ui2.js';
 
 import { initializeApp } from 'firebase/app';
 import {
@@ -21,13 +20,14 @@ import {
 } from 'firebase/auth';
 
 const firebaseApp = initializeApp({
-    apiKey: "dummy-apiKey",
-    authDomain: "dummy-authDomain.firebaseapp.com",
-    projectId: "dummy-project-id",
-    storageBucket: "dummy-authDomain.firebaseapp.com",
-    messagingSenderId: "123456789012",
-    appId: "1:123456789012:web:7c7abae699b868b7f896ec",
-    measurementId: "G-ABCDEFGHIJ"
+    apiKey: "AIzaSyCgM7WgX0FDbv5h8n9q-l_pYZZpFF2lj6I",
+    authDomain: "jkimtech.firebaseapp.com",
+    databaseURL: "https://jkimtech-default-rtdb.firebaseio.com",
+    projectId: "jkimtech",
+    storageBucket: "jkimtech.appspot.com",
+    messagingSenderId: "682045885586",
+    appId: "1:682045885586:web:de5ce24c219008f6d4aa4b",
+    measurementId: "G-FJ7EGGLBGJ"
 });
 
 // Login using email/password

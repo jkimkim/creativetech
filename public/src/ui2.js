@@ -1,4 +1,4 @@
-
+import { AuthErrorCodes } from 'firebase/auth';
 //sign in/ sign up ui
 
 export const txtEmail = document.querySelector("#email");

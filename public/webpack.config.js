@@ -9,7 +9,8 @@ module.exports = {
         app: './src/index.js',
         aboutme: './src/aboutme.js',
         contact: './src/contact.js',
-        posts: './src/post.js'
+        posts: './src/post.js',
+        comingsoon: './src/signin.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -74,6 +75,11 @@ module.exports = {
             template: "posts.html",
             filename: "./posts.html",
             chunks:['posts']
+        }),
+        new HtmlWebpackPlugin({
+            template: "comingsoon.html",
+            filename: "./comingsoon.html",
+            chunks: ['comingsoon']
         })
     ]
 }
