@@ -411,5 +411,15 @@ segmentAngleRad = function (Xstart, Ystart, Xtarget, Ytarget, realOrWeb) {
 
 export const txtEmail = document.querySelector("#email");
 export const txtPassword = document.querySelector("#password");
+
 export const btnLogin = document.querySelector(".login");
 export const btnSignup = document.querySelector(".signup");
+
+export const btnLogout = document.querySelector(".logout");
+
+export const divAuthState = document.querySelector('#divAuthState')
+export const lblAuthState = document.querySelector('#lblAuthState')
+
+export const divLoginError = document.querySelector('#divLoginError')
+export const lblLoginErrorMessage = document.querySelector('#lblLoginErrorMessage')
+
