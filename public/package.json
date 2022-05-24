@@ -1,14 +1,14 @@
 {
-  "name": "public",
+  "name": "jkimtech",
   "version": "1.0.0",
-  "description": "",
+  "description": "jkimtech",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
     "start:dev": "webpack-dev-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "John Kimiti",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.10",
@@ -20,11 +20,19 @@
     "html-webpack-plugin": "^5.5.0",
     "i": "^0.3.7",
     "style-loader": "^3.3.1",
-    "webpack": "^5.72.0",
+    "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
     "firebase": "^9.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkimkim/creativetech.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkimkim/creativetech/issues"
+  },
+  "homepage": "https://github.com/jkimkim/creativetech#readme"
 }
