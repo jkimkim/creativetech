@@ -1,12 +1,18 @@
 import '../style2.css'
 import '../assets/halfmoon-1.1.1/css/halfmoon.css'
+import '../assets/fontawesome/css/all.css'
+
+import regeneratorRuntime from "regenerator-runtime";
+
 import {
     hideLoginError,
     showLoginState,
     showLoginError,
     btnLogin,
     btnSignup,
-    btnLogout
+    btnLogout,
+    txtEmail,
+    txtPassword
 } from './ui2.js';
 
 import { initializeApp } from 'firebase/app';
@@ -29,6 +35,9 @@ const firebaseApp = initializeApp({
     appId: "1:682045885586:web:de5ce24c219008f6d4aa4b",
     measurementId: "G-FJ7EGGLBGJ"
 });
+
+const auth = getAuth(firebaseApp);
+connectAuthEmulator(auth, "http://localhost:9099");
 
 // Login using email/password
 const loginEmailPassword = async () => {
@@ -67,16 +76,16 @@ const monitorAuthState = async () => {
     onAuthStateChanged(auth, user => {
         if (user) {
             console.log(user)
-            showApp()
+            // showApp()
             showLoginState(user)
 
             hideLoginError()
-            hideLinkError()
+            // hideLinkError()
         }
-        else {
-            showLoginForm()
-            lblAuthState.innerHTML = `You're not logged in.`
-        }
+        // else {
+        //     showLoginForm()
+        //     lblAuthState.innerHTML = `You're not logged in.`
+        // }
     })
 }
 
@@ -89,7 +98,6 @@ btnLogin.addEventListener("click", loginEmailPassword)
 btnSignup.addEventListener("click", createAccount)
 btnLogout.addEventListener("click", logout)
 
-const auth = getAuth(firebaseApp);
-connectAuthEmulator(auth, "http://localhost:9099");
+
 
 monitorAuthState();
