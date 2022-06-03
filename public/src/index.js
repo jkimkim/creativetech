@@ -3,9 +3,11 @@ import {firebaseapp} from 'firebase/app';
 
 import firestore from "firebase/firestore";
 
-import '../css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 import '../style1.css'
 import '../assets/fontawesome/css/all.css'
+
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries

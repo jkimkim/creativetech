@@ -346,9 +346,10 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 
 .accry{
-    min-height: 60vh;
-    color: #e8eff5;
-    width: 70%;
+    /* min-height: 60vh;
+    max-height: 60vh; */
+    /* color: #e8eff5; */
+    width: auto;
     background-position: center;
     border-radius: 10px;
     box-shadow: -8px -8px 8px #ffffff9d, 8px 8px 8px rgba(94, 104, 121, .288);
@@ -361,7 +362,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     margin-top: 5vh;
     text-decoration-color: #000000;
     transition: all 400ms;
-
+    overflow: hidden;
     
 }
 
@@ -671,3 +672,6 @@ button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=subm
     z-index: inherit;
 }
 
+.carousel .carousel-item .carousel-dark .slide img{
+    object-fit: scale-down;
+}

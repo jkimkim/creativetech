@@ -4,7 +4,7 @@
             D = !0; var a = document.body, b = document.documentElement, d = window.innerHeight, c = a.scrollHeight; l = 0 <= document.compatMode.indexOf("CSS") ? b : a; m = a; f.keyboardSupport && window.addEventListener("keydown", M, !1); if (top != self) v = !0; else if (ca && c > d && (a.offsetHeight <= d || b.offsetHeight <= d)) {
                 var e = document.createElement("div"); e.style.cssText = "position:absolute; z-index:-10000; top:0; left:0; right:0; height:" + l.scrollHeight + "px"; document.body.appendChild(e); var g; w = function () {
                     g ||
-                    (g = setTimeout(function () { e.style.height = "0"; e.style.height = l.scrollHeight + "px"; g = null }, 500))
+                        (g = setTimeout(function () { e.style.height = "0"; e.style.height = l.scrollHeight + "px"; g = null }, 500))
                 }; setTimeout(w, 10); window.addEventListener("resize", w, !1); z = new da(w); z.observe(a, { attributes: !0, childList: !0, characterData: !1 }); l.offsetHeight <= d && (d = document.createElement("div"), d.style.clear = "both", a.appendChild(d))
             } f.fixedBackground || (a.style.backgroundAttachment = "scroll", b.style.backgroundAttachment = "scroll")
         }
@@ -51,6 +51,6 @@
         window.WebKitMutationObserver || window.MozMutationObserver, O = function () { var a = document.scrollingElement; return function () { if (!a) { var b = document.createElement("div"); b.style.cssText = "height:10000px;width:1px;"; document.body.appendChild(b); var d = document.body.scrollTop; window.scrollBy(0, 3); a = document.body.scrollTop != d ? document.body : document.documentElement; window.scrollBy(0, -3); document.body.removeChild(b) } return a } }(), k = window.navigator.userAgent, u = /Edge/.test(k), G = /chrome/i.test(k) && !u; u = /safari/i.test(k) &&
             !u; var ka = /mobile/i.test(k), la = /Windows NT 6.1/i.test(k) && /rv:11/i.test(k), ca = u && (/Version\/8/i.test(k) || /Version\/9/i.test(k)); k = (G || u || la) && !ka; var ba = !1; try { window.addEventListener("test", null, Object.defineProperty({}, "passive", { get: function () { ba = !0 } })) } catch (a) { } u = ba ? { passive: !1 } : !1; var L = "onwheel" in document.createElement("div") ? "wheel" : "mousewheel"; L && k && (window.addEventListener(L, R, u || !1), window.addEventListener("mousedown", U, !1), window.addEventListener("load", C, !1)); y.destroy = function () {
                 z &&
-                z.disconnect(); window.removeEventListener(L, R, !1); window.removeEventListener("mousedown", U, !1); window.removeEventListener("keydown", M, !1); window.removeEventListener("resize", w, !1); window.removeEventListener("load", C, !1)
+                    z.disconnect(); window.removeEventListener(L, R, !1); window.removeEventListener("mousedown", U, !1); window.removeEventListener("keydown", M, !1); window.removeEventListener("resize", w, !1); window.removeEventListener("load", C, !1)
             }; window.SmoothScrollOptions && y(window.SmoothScrollOptions); "function" === typeof define && define.amd ? define(function () { return y }) : "object" == typeof exports ? module.exports = y : window.SmoothScroll = y
 })();
