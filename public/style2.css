@@ -177,7 +177,7 @@ ul {
      /* box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);  */
     border-radius: 10px;
     background: rgba(103, 193, 235, 0);
-    overflow: hidden;
+    overflow-y: scroll;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */

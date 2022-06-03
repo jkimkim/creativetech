@@ -1,10 +1,13 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import {firebaseapp} from 'firebase/app';
 
-import '../css/bootstrap.css'
+import firestore from "firebase/firestore";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 import '../style1.css'
 import '../assets/fontawesome/css/all.css'
+
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -23,8 +26,12 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+const timestamp = firebase.firestore.FieldValue.serverTimestamp;
+
+export { timestamp };
+export default firebaseApp.firestore;
 
 
 import { bro } from "../hello";

@@ -9,7 +9,8 @@ module.exports = {
         app: './src/index.js',
         aboutme: './src/aboutme.js',
         contact: './src/contact.js',
-        posts: './src/post.js'
+        posts: './src/post.js',
+        comingsoon: './src/signin.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -41,12 +42,9 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|jpe?g|gif)$/i,
-                use: [
-                    {
-                        loader: 'file-loader',
-                    },
-                ],
+                test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/i,
+                // More information here https://webpack.js.org/guides/asset-modules/
+                type: "asset",
             },
             {
                 test: /\.css$/i,
@@ -74,6 +72,11 @@ module.exports = {
             template: "posts.html",
             filename: "./posts.html",
             chunks:['posts']
+        }),
+        new HtmlWebpackPlugin({
+            template: "comingsoon.html",
+            filename: "./comingsoon.html",
+            chunks: ['comingsoon']
         })
     ]
 }
