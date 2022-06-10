@@ -41,7 +41,7 @@ export { timestamp };
 export default firebaseApp.firestore;
 
 
-import { bro } from "../hello";
+import { bro } from "./hello";
 console.log(bro('dude'))
 
 if (user) {

@@ -16,7 +16,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].bundle.js',
     },
-    
+
     watch: true,
     module: {
         rules: [
@@ -54,28 +54,28 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: "index.html",
-            filename: "./src/index.html",
+            template: "./src/index.html",
+            filename: "index.html",
             chunks: ['app']
         }),
         new HtmlWebpackPlugin({
-            template: "aboutme.html",
-            filename: "./src/aboutme.html",
-            chunks:['aboutme']
+            template: "./src/aboutme.html",
+            filename: "aboutme.html",
+            chunks: ['aboutme']
         }),
         new HtmlWebpackPlugin({
-            template: "contact.html",
-            filename: "./src/contact.html",
-            chunks:['contact']
+            template: "./src/contact.html",
+            filename: "contact.html",
+            chunks: ['contact']
         }),
         new HtmlWebpackPlugin({
-            template: "posts.html",
-            filename: "./src/posts.html",
-            chunks:['posts']
+            template: "./src/posts.html",
+            filename: "posts.html",
+            chunks: ['posts']
         }),
         new HtmlWebpackPlugin({
-            template: "comingsoon.html",
-            filename: "./src/comingsoon.html",
+            template: "./src/comingsoon.html",
+            filename: "comingsoon.html",
             chunks: ['comingsoon']
         })
     ]
