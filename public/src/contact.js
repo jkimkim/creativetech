@@ -3,7 +3,8 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 import '../style3.css'
-import '../css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries

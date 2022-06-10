@@ -8,6 +8,13 @@ import 'bootstrap';
 import '../style1.css'
 import '../assets/fontawesome/css/all.css'
 
+import {
+    showBtn
+} from "./ui2.js"
+
+import {
+    monitorAuthState
+} from "./signin.js"
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -36,3 +43,8 @@ export default firebaseApp.firestore;
 
 import { bro } from "../hello";
 console.log(bro('dude'))
+
+if (user) {
+    showBtn(user)
+}
+monitorAuthState();

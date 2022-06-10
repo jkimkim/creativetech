@@ -282,9 +282,19 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     -webkit-font-smoothing: antialiased;
 }
 
-.main_nav li {
+/* .main_nav li {
+    
+} */
+
+#menu-item-1, #menu-item-2, #menu-item-3, #menu-item-4, .menu-item-2{
     border-top: 0;
     display: inline-block;
+    float: none;
+}
+
+.menu-item-2{
+    border-top: 0;
+    display: none;
     float: none;
 }
 
@@ -430,8 +440,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 
 .hidden {
-    display: hidden;
-    opacity: 0%;
+    visibility: hidden;
+    display: none;
 }
 
 .back-to-top-icon {
@@ -476,8 +486,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     transform: scale(0.95);
 }
 
-    .site_brandingwr{
-        padding: 0 5%;
+.site_brandingwr{
+    padding: 0 5%;
     width: 100%;
     display: block;
 }
@@ -674,4 +684,8 @@ button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=subm
 
 .carousel .carousel-item .carousel-dark .slide img{
     object-fit: scale-down;
+}
+
+.menu-item-5{
+    display: none;
 }

@@ -15,6 +15,8 @@ export const lblAuthState = document.querySelector('#lblAuthState')
 export const divLoginError = document.querySelector('#divLoginError')
 export const lblLoginErrorMessage = document.querySelector('#lblLoginErrorMessage')
 
+let dashboard = document.querySelector('#dashboard')
+
 export const hideLoginError = () => {
     divLoginError.style.display = 'none'
     lblLoginErrorMessage.innerHTML = ''
@@ -35,3 +37,8 @@ export const showLoginState = (user) => {
 }
 
 hideLoginError()
+
+export const showBtn = () => {
+    dashboard.style.display = 'inline-block'
+    console.log(dashboard)
+}

@@ -12,6 +12,7 @@ import {
     btnSignup,
     btnLogout,
     txtEmail,
+    showBtn,
     txtPassword
 } from './ui2.js';
 
@@ -72,11 +73,12 @@ const createAccount = async () => {
 }
 
 // Monitor auth state
-const monitorAuthState = async () => {
+export const monitorAuthState = async () => {
     onAuthStateChanged(auth, user => {
         if (user) {
             console.log(user)
             // showApp()
+            showBtn()
             showLoginState(user)
 
             hideLoginError()

@@ -1,7 +1,8 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
-import '../css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 import '../poststyle.css'
 
 // TODO: Add SDKs for Firebase products that you want to use
