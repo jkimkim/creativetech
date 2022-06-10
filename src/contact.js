@@ -2,7 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
-import '../style3.css'
+import './style3.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 

@@ -55,27 +55,27 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: "index.html",
-            filename: "./index.html",
+            filename: "./src/index.html",
             chunks: ['app']
         }),
         new HtmlWebpackPlugin({
             template: "aboutme.html",
-            filename: "./aboutme.html",
+            filename: "./src/aboutme.html",
             chunks:['aboutme']
         }),
         new HtmlWebpackPlugin({
             template: "contact.html",
-            filename: "./contact.html",
+            filename: "./src/contact.html",
             chunks:['contact']
         }),
         new HtmlWebpackPlugin({
             template: "posts.html",
-            filename: "./posts.html",
+            filename: "./src/posts.html",
             chunks:['posts']
         }),
         new HtmlWebpackPlugin({
             template: "comingsoon.html",
-            filename: "./comingsoon.html",
+            filename: "./src/comingsoon.html",
             chunks: ['comingsoon']
         })
     ]

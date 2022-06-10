@@ -1,6 +1,6 @@
-import '../style2.css'
-import '../assets/halfmoon-1.1.1/css/halfmoon.css'
-import '../assets/fontawesome/css/all.css'
+import './style2.css'
+import './assets/halfmoon-1.1.1/css/halfmoon.css'
+import './assets/fontawesome/css/all.css'
 
 import regeneratorRuntime from "regenerator-runtime";
 
