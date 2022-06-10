@@ -25,8 +25,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+     "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
     "build": "webpack --mode=development",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
