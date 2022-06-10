@@ -25,10 +25,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-     "start": "node index.js",
+    "start": "serve -s build",
     "build": "webpack --mode=development",
     "start:dev": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
