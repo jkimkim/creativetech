@@ -4,7 +4,11 @@ import ReactDOM from 'react-dom';
 // Import the functions you need from the SDKs you need
 import {initializeApp} from 'firebase/app';
 
-import firestore from "firebase/firestore";
+import {
+    getFirestore,
+    collection,
+    getDocs
+} from "firebase/firestore";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
@@ -35,19 +39,11 @@ const firebaseConfig = {
 // Initialize Firebase
  initializeApp(firebaseConfig);
 
-const timestamp = firebase.firestore.FieldValue.serverTimestamp;
-
-export { timestamp };
-export default firebaseApp.firestore;
-
-
-import { bro } from "./hello";
-console.log(bro('dude'))
 
 // if (user) {
 //     showBtn(user)
 // }
-monitorAuthState();
+
 
 //splash screen
 // ReactDOM.render(
@@ -57,3 +53,20 @@ monitorAuthState();
 //     document.getElement('splash')
 // );
 
+const db = getFirestore()
+
+//collection reference
+const colRef = collection(db, 'blogs')
+
+//get docs
+getDocs(colRef)
+    .then((snapshot) => {
+        let blogs = []
+        snapshot.docs.forEach((doc) => {
+            blogs.push({ ...doc.data(), id: doc.id})
+        })
+        console.log(blogs)
+    })
+    .catch(err => {
+        console.log(err.message);
+    })
