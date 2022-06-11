@@ -309,15 +309,9 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 }
 
 .main_nav a:hover {
-    
     transition: opacity .4s;
     color: #333;
     opacity: .6;
-     box-shadow: inset -8px -8px 8px #ffffff73, inset 8px 8px 8px rgba(94, 104, 121, .288);
-   transform: scale(1.1);
-   border-radius: 10px;
-   padding-left: 2vh;
-    padding-right: 2vh;
 }
 
 .main_nav a, .main_nav a:visited,  .main_nav a:active{
@@ -620,8 +614,13 @@ button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=subm
 .description{
     float: left;
     line-height: 26px;
-    margin: 0;
+    /* margin: 0; */
+    display: flex;
     width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .social_nav{
     text-align: right;
@@ -688,4 +687,29 @@ button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=subm
 
 .menu-item-5{
     display: none;
+}
+
+/* splash screen */
+.splash{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #e0ebf5;
+    z-index: 999;
+    line-height: 90vh;
+}
+
+.splash.display-none{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #e0ebf5;
+    z-index: -500;
+    opacity: 0;
+    line-height: 90vh;
+    transition: all 0.8s;
 }

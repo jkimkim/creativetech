@@ -72,7 +72,7 @@ const createAccount = async () => {
 }
 
 // Monitor auth state
-export const monitorAuthState = async () => {
+const monitorAuthState = async () => {
     onAuthStateChanged(auth, user => {
         if (user) {
             console.log(user)

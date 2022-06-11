@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 // Import the functions you need from the SDKs you need
 import {firebaseapp} from 'firebase/app';
 
@@ -8,13 +11,10 @@ import 'bootstrap';
 import './style1.css'
 import './assets/fontawesome/css/all.css'
 
-import {
-    showBtn
-} from "./ui2.js"
+import './splash.css';
+// import App from './splash.jsx';
 
-import {
-    monitorAuthState
-} from "./signin.js"
+
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -44,7 +44,16 @@ export default firebaseApp.firestore;
 import { bro } from "./hello";
 console.log(bro('dude'))
 
-if (user) {
-    showBtn(user)
-}
+// if (user) {
+//     showBtn(user)
+// }
 monitorAuthState();
+
+//splash screen
+// ReactDOM.render(
+//     <React.StrictMode>
+//         <App/>
+//     </React.StrictMode>,
+//     document.getElement('splash')
+// );
+

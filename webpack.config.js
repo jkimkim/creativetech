@@ -21,12 +21,15 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.m?js$/,
+                test: /\.m?js|jsx$/,
                 exclude: /(node_modules|bower_components)/,
                 use: {
                     loader: 'babel-loader',
                     options: {
                         presets: ['@babel/preset-env']
+                    },
+                    options: {
+                        presets: ['@babel/env', '@babel/preset-react']
                     }
                 }
             },
