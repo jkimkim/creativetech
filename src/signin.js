@@ -12,7 +12,6 @@ import {
     btnSignup,
     btnLogout,
     txtEmail,
-    showBtn,
     txtPassword
 } from './ui2.js';
 
@@ -78,7 +77,6 @@ export const monitorAuthState = async () => {
         if (user) {
             console.log(user)
             // showApp()
-            showBtn()
             showLoginState(user)
 
             hideLoginError()
