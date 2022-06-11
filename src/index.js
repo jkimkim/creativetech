@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Import the functions you need from the SDKs you need
-import {firebaseapp} from 'firebase/app';
+import {initializeApp} from 'firebase/app';
 
 import firestore from "firebase/firestore";
 
@@ -33,7 +33,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+ initializeApp(firebaseConfig);
 
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
