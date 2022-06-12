@@ -716,3 +716,8 @@ button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=subm
 
     transition: all 0.8s;
 }
+
+html, .modal-open{
+    padding-right: 0% !important;
+    overflow: hidden;
+}
