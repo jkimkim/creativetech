@@ -3,6 +3,11 @@
   font-family: 'Sirin Stencil', cursive;
 }
 
+.App-header p{
+  text-align: center;
+  font-family: 'Sirin Stencil', cursive;
+}
+
 .App-logo {
     box-sizing: content-box;
   height: 40vmin;
