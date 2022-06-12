@@ -52,11 +52,11 @@
     <div class="splash">
         <div class="App">
             <header class="App-header">
-                <img src= "img/logo4.png" class="App-logo img-fluid" alt="logo"/>
+                <img src="img/logo4.png" class="App-logo img-fluid" alt="logo" />
                 <p>
                     JKIMTECH
                 </p>
-                 <!-- 
+                <!-- 
                 <a className="App-link" href="https://jkimtech.com" target="_blank" rel="noopener noreferrer">
                     Learn more
                 </a> -->
@@ -98,11 +98,11 @@
                                         href="https://www.linkedin.com/in/john-kimiti-9322201a2/">
                                         <i class="fab fa-linkedin-in"> </i>
                                     </a>
-                                    <li id="ig" class="ig_icon">
-                                        <a href="https://github.com/jkimkim">
-                                            <i class="fa-solid fa-right-to-bracket"></i>
-                                        </a>
-                                    </li>
+                                <li id="ig" class="ig_icon">
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                                        <i class="fa-solid fa-right-to-bracket"></i>
+                                    </a>
+                                </li>
                                 </li>
                             </ul>
                         </div>
@@ -154,6 +154,34 @@
         <!--the main body. This contains the accry class
             it was originally created as an acrylic, however the design changed midway in the build-->
         <div class="mainbod">
+            <div class="login-modal modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="wrapper modal-content">
+                        <div class="logo-holder">
+                            <img src="img/logo4.png" alt="">
+                        </div>
+                        <div class="text-center mt-4 name">
+                            Jkimtech
+                        </div>
+                        <form class="p-3 mt-3">
+                            <div class="form-field d-flex align-items-center">
+                                <span class="far fa-user"></span>
+                                <input type="email" name="email" id="email" placeholder="Email" required="required">
+                            </div>
+                            <div class="form-field d-flex align-items-center">
+                                <span class="fas fa-key"></span>
+                                <input type="password" name="password" id="pwd" placeholder="Password"
+                                    required="required">
+                            </div>
+                            <button class="btn mt-3">Login</button>
+                        </form>
+                        <div class="text-center fs-6">
+                            <a href="#">Forget password?</a> or <a href="#">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <section class="accry 1">
                 <section id="section-1">
                     <div class="content-slider">

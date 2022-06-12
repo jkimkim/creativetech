@@ -14,6 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import './style1.css'
 import './assets/fontawesome/css/all.css'
+import './login.css'
 
 import './splash.css';
 // import App from './splash.jsx';
