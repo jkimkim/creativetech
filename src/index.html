@@ -7,7 +7,7 @@
     <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
     <link rel="stylesheet" href="style1.css">
     <link rel="icon" href="img/SVG/Asset 1.svg" sizes="any" type="image/svg+xml">
-    <script type="module" src="index.js"></script>
+    <script type="module" src="dist/app.bundle.js"></script>
     <meta name="description" content="find te latest tech updates here. Get a website at an affordable price!">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,7 +54,9 @@
             <header class="App-header">
                 <img src="img/logo4.png" class="App-logo img-fluid" alt="logo" />
                 <p>
-                    JKIMTECH  <small style="font-size: small; color: aliceblue;"><caption>this site is under meintenance</caption></small>
+                    JKIMTECH <small style="font-size: small; color: aliceblue;">
+                        <caption>this site is under meintenance</caption>
+                    </small>
                 </p>
                 <!-- 
                 <a className="App-link" href="https://jkimtech.com" target="_blank" rel="noopener noreferrer">
@@ -152,6 +154,60 @@
                 </div>
             </div>
         </header>
+
+        <div class="carousel_1">
+            <section id="section-1">
+                <div class="content-slider">
+                  <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+                  <input type="radio" id="banner2" class="sec-1-input" name="banner">
+                  <input type="radio" id="banner3" class="sec-1-input" name="banner">
+                  <input type="radio" id="banner4" class="sec-1-input" name="banner">
+                  <div class="slider">
+                    <div id="top-banner-1" class="banner">
+                      <div class="banner-inner-wrapper">
+                        <h2>Hello!</h2>
+                        <h1>Welcome<br>to JKIMTECH </h1>
+                        <div class="line"></div>
+                        <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+                      </div>
+                    </div>
+                    <div id="top-banner-2" class="banner">
+                      <div class="banner-inner-wrapper">
+                        <h2>What We Do</h2>
+                        <h1>Great<br>JKIMTECH</h1>
+                        <div class="line"></div>
+                        <div class="learn-more-button"><a href="#section-4">Learn More</a></div>
+                      </div>
+                    </div>
+                    <div id="top-banner-3" class="banner">
+                      <div class="banner-inner-wrapper">
+                        <h2>Here We Are</h2>
+                        <h1>We Are<br>JKIMTECH</h1>
+                        <div class="line"></div>
+                        <div class="learn-more-button"><a href="#section-6">Learn More</a></div>
+                      </div>
+                    </div>
+                    <div id="top-banner-4" class="banner">
+                      <div class="banner-inner-wrapper">
+                        <h2>Our Contacts</h2>
+                        <h1>Welcome<br>to MoGo</h1>
+                        <div class="line"></div>
+                        <div class="learn-more-button"><a href="#main-footer">Learn More</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <nav>
+                    <div class="controls">
+                      <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span> Intro</label>
+                      <label for="banner2"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Work</label>
+                      <label for="banner3"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> About</label>
+                      <label for="banner4"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span> Contacts</label>
+                    </div>
+                  </nav>
+                </div>
+              </section>
+        </div>
+
         <!--the main body. This contains the accry class
             it was originally created as an acrylic, however the design changed midway in the build-->
         <div class="mainbod">
@@ -183,105 +239,7 @@
                     </div>
                 </div>
             </div>
-            <section class="accry 1">
-                <section id="section-1">
-                    <div class="content-slider">
-                        <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
-                        <input type="radio" id="banner2" class="sec-1-input" name="banner">
-                        <input type="radio" id="banner3" class="sec-1-input" name="banner">
-                        <input type="radio" id="banner4" class="sec-1-input" name="banner">
-                        <div class="slider">
-                            <div id="top-banner-1" class="banner">
-                                <div class="banner-inner-wrapper">
-                                    <h2>Creative Template</h2>
-                                    <h1>Welcome<br>to MoGo</h1>
-                                    <div class="line"></div>
-                                    <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
-                                </div>
-                            </div>
-                            <div id="top-banner-2" class="banner">
-                                <div class="banner-inner-wrapper">
-                                    <h2>What We Do</h2>
-                                    <h1>Great<br>MoGo</h1>
-                                    <div class="line"></div>
-                                    <div class="learn-more-button"><a href="#section-4">Learn More</a></div>
-                                </div>
-                            </div>
-                            <div id="top-banner-3" class="banner">
-                                <div class="banner-inner-wrapper">
-                                    <h2>Here We Are</h2>
-                                    <h1>We Are<br>MoGo</h1>
-                                    <div class="line"></div>
-                                    <div class="learn-more-button"><a href="#section-6">Learn More</a></div>
-                                </div>
-                            </div>
-                            <div id="top-banner-4" class="banner">
-                                <div class="banner-inner-wrapper">
-                                    <h2>Our Contacts</h2>
-                                    <h1>Welcome<br>to MoGo</h1>
-                                    <div class="line"></div>
-                                    <div class="learn-more-button"><a href="#main-footer">Learn More</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <nav>
-                            <div class="controls">
-                                <label for="banner1"><span class="progressbar"><span
-                                            class="progressbar-fill"></span></span><span>01</span> Intro</label>
-                                <label for="banner2"><span class="progressbar"><span
-                                            class="progressbar-fill"></span></span><span>02</span> Work</label>
-                                <label for="banner3"><span class="progressbar"><span
-                                            class="progressbar-fill"></span></span><span>03</span> About</label>
-                                <label for="banner4"><span class="progressbar"><span
-                                            class="progressbar-fill"></span></span><span>04</span> Contacts</label>
-                            </div>
-                        </nav>
-                    </div>
-                </section>
-                <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="img/logo3.png" class="d-block w-100 img-fluid" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src="img/logo3.png" class="d-block w-100 img-fluid" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/1.png" class="d-block w-100 img-fluid" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div> -->
-            </section>
+
             <!-- services -->
 
             <div class="services">
@@ -442,6 +400,7 @@
         crossorigin="anonymous">
         </script>
     <script src="js/kim.js"></script>
+    <script src="js/carousel.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
