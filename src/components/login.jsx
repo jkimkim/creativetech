@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import logo from '../img/logo4.png';
+
 class Login extends Component {
     state = {  } 
     render() { 
@@ -10,7 +12,7 @@ class Login extends Component {
                 <div className="modal-dialog">
                     <div className="wrapper modal-content">
                         <div className="logo-holder">
-                            <img src="img/logo4.png" alt=""/>
+                            <img src={logo} alt=""/>
                         </div>
                         <div className="text-center mt-4 name">
                             Jkimtech
