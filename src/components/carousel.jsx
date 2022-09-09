@@ -52,7 +52,7 @@ class Carousel extends Component {
                   <div className="banner-inner-wrapper">
                     <h2>What We Do</h2>
                     <h1>
-                      Great
+                      here at
                       <br />
                       JKIMTECH
                     </h1>
@@ -82,7 +82,7 @@ class Carousel extends Component {
                     <h1>
                       Welcome
                       <br />
-                      to MoGo
+                      to JKimTech
                     </h1>
                     <div className="line"></div>
                     <div className="learn-more-button">
