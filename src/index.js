@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import splash from './components/splash.jsx'
+
 
 // Import the functions you need from the SDKs you need
 import {initializeApp} from 'firebase/app';
@@ -19,6 +19,8 @@ import './login.css'
 import './carousel.css'
 import './splash.css';
 
+import Header from './components/header.jsx'
+import Splash from './components/splash.jsx'
 // import App from './splash.jsx';
 
 
@@ -47,11 +49,18 @@ const firebaseConfig = {
 //     showBtn(user)
 // }
 
+//header
+ReactDOM.render(
+    <React.StrictMode>
+        <Header/>
+    </React.StrictMode>,
+    document.getElementById('header-1')
+);
 
 //splash screen
 ReactDOM.render(
      <React.StrictMode>
-         <splash/>
+         <Splash/>
      </React.StrictMode>,
      document.getElementById('splash')
  );
