@@ -21,6 +21,8 @@ import './splash.css';
 
 import Header from './components/header.jsx'
 import Splash from './components/splash.jsx'
+import Carousel from './components/carousel.jsx'
+import Login from './components/login.jsx'
 // import App from './splash.jsx';
 
 
@@ -64,6 +66,14 @@ ReactDOM.render(
      </React.StrictMode>,
      document.getElementById('splash')
  );
+
+ //carousel
+ ReactDOM.render(
+    <React.StrictMode>
+        <Carousel/>
+    </React.StrictMode>,
+    document.getElementById('carousel')
+);
 
 const db = getFirestore()
 
