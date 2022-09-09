@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import splash from './components/splash.jsx'
 
 // Import the functions you need from the SDKs you need
 import {initializeApp} from 'firebase/app';
@@ -48,12 +49,12 @@ const firebaseConfig = {
 
 
 //splash screen
-// ReactDOM.render(
-//     <React.StrictMode>
-//         <App/>
-//     </React.StrictMode>,
-//     document.getElement('splash')
-// );
+ReactDOM.render(
+     <React.StrictMode>
+         <splash/>
+     </React.StrictMode>,
+     document.getElementById('splash')
+ );
 
 const db = getFirestore()
 
