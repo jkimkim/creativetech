@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-
+import logo from '../img/logo4.png';
 
 class Header extends Component {
     state = {  } 
@@ -55,7 +55,7 @@ class Header extends Component {
                 <div className="site_brandingwr">
                     <div className="site_branding">
                         <a href="index.html" className="logo" rel="home" aria-current="page">
-                            <img width="100" height="100" src="./img/SVG/Asset 1.svg" className="custom-logo"
+                            <img width="100" height="100" src={logo} className="custom-logo"
                                 alt="the founder" data-image-title="white bg" data-image-description="jkimtech logo"/>
                         </a>
                         <h1 className="site_title">

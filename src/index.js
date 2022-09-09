@@ -75,6 +75,14 @@ ReactDOM.render(
     document.getElementById('carousel')
 );
 
+//login modal
+ReactDOM.render(
+    <React.StrictMode>
+        <Login/>
+    </React.StrictMode>,
+    document.getElementById('login')
+);
+
 const db = getFirestore()
 
 //collection reference
