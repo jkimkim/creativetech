@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import logo from '../img/logo4.png';
+import myFunction from '../js/kim.js';
 
 class Header extends Component {
     state = {  } 
@@ -63,7 +64,7 @@ class Header extends Component {
                         </h1>
                     </div>
                     <nav id="navigation" className="main_nav" role="navigation">
-                        <button className="menu_toggle" onclick="myFunction()" aria-controls="top_menu"
+                        <button className="menu_toggle" onClick={myFunction} aria-controls="top_menu"
                             aria-expanded="false">
                             <span>
                                 <i className="fas fa-ellipsis-v"></i>

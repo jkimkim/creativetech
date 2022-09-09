@@ -12,6 +12,8 @@ function myFunction() {
   }
 }
 
+export default myFunction;
+
 const scrollContainer = () => {
   return document.documentElement || document.body;
 };
