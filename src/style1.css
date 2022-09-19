@@ -502,6 +502,10 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     text-align: center;
 }
 
+.head{
+    z-index: 500;
+}
+
 .stwrapper{
     background-color: ivory;
     box-shadow:  8px 8px 8px rgba(94, 104, 121, .288);
