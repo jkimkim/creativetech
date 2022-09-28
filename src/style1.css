@@ -725,3 +725,35 @@ html, .modal-open{
     padding-right: 0% !important;
     overflow: hidden;
 }
+
+
+.line {
+    background-color: #00ADB5;
+    margin: 1rem;
+    width: 4px;
+    height: 150px;
+    border-radius: 4px;
+}
+element.style .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.fab {
+    font-weight: bold;
+    font-size: 25px;
+}
+.social {
+    position: absolute;
+    top: 15.3rem;
+    right: -8rem;
+    /* rotate: 90deg; */
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+<span>F</span><span>o</span><span>l</span><span>l</span><span>o</span><span>w</span> <span>M</span><span>e</span>
