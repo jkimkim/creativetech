@@ -756,4 +756,11 @@ element.style .icons{
     flex-direction: column;
 }
 
-<span>F</span><span>o</span><span>l</span><span>l</span><span>o</span><span>w</span> <span>M</span><span>e</span>
+/*<span>F</span><span>o</span><span>l</span><span>l</span><span>o</span><span>w</span> <span>M</span><span>e</span>*/
+
+element.style .john-img-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
