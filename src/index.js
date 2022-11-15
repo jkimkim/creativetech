@@ -52,36 +52,45 @@ const firebaseConfig = {
 // }
 
 //header
-ReactDOM.render(
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
     <React.StrictMode>
+        {/* // Header */}
         <Header/>
-    </React.StrictMode>,
-    document.getElementById('header-1')
+       
+    </React.StrictMode>
 );
+// ReactDOM.render(
+//     <React.StrictMode>
+//         <Header/>
+//     </React.StrictMode>,
+//     document.getElementById('header-1')
+// );
 
-//splash screen
-ReactDOM.render(
-     <React.StrictMode>
-         <Splash/>
-     </React.StrictMode>,
-     document.getElementById('splash')
- );
+// //splash screen
+// ReactDOM.render(
+//      <React.StrictMode>
+//          <Splash/>
+//      </React.StrictMode>,
+//      document.getElementById('splash')
+//  );
 
- //carousel
- ReactDOM.render(
-    <React.StrictMode>
-        <Carousel/>
-    </React.StrictMode>,
-    document.getElementById('carousel')
-);
+//  //carousel
+//  ReactDOM.render(
+//     <React.StrictMode>
+//         <Carousel/>
+//     </React.StrictMode>,
+//     document.getElementById('carousel')
+// );
 
-//login modal
-ReactDOM.render(
-    <React.StrictMode>
-        <Login/>
-    </React.StrictMode>,
-    document.getElementById('login')
-);
+// //login modal
+// ReactDOM.render(
+//     <React.StrictMode>
+//         <Login/>
+//     </React.StrictMode>,
+//     document.getElementById('login')
+// );
 
 const db = getFirestore()
 
