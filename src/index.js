@@ -53,7 +53,7 @@ const firebaseConfig = {
 
 //header
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('header-1'));
 root.render(
     <React.StrictMode>
         {/* // Header */}
@@ -61,6 +61,51 @@ root.render(
        
     </React.StrictMode>
 );
+
+//splash
+
+const root2 = ReactDOM.createRoot(document.getElementById('splash'));
+root2.render(
+    <React.StrictMode>
+        {/* // Splash */}
+        <Splash/>
+        </React.StrictMode>
+);
+
+//carousel
+
+const root3 = ReactDOM.createRoot(document.getElementById('carousel'));
+root3.render(
+    <React.StrictMode>
+        {/* // Carousel */}
+        <Carousel/>
+        </React.StrictMode>
+);
+
+//login
+
+const root4 = ReactDOM.createRoot(document.getElementById('login'));
+root4.render(
+    <React.StrictMode>
+        {/* // Login */}
+        <Login/>
+        </React.StrictMode>
+);
+
+//footer
+
+const root5 = ReactDOM.createRoot(document.getElementById('footer-1'));
+root5.render(
+    <React.StrictMode>
+        {/* // Footer */}
+        <Footer/>
+        </React.StrictMode>
+);
+
+// import { getAuth, onAuthStateChanged } from "firebase/auth";
+
+
+
 // ReactDOM.render(
 //     <React.StrictMode>
 //         <Header/>
