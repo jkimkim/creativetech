@@ -708,6 +708,7 @@ button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=subm
     height: 100vh;
     background-color: #e0ebf5;
     z-index: 99999;
+    overflow-y: auto;
 
 }
 

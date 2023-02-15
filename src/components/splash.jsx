@@ -19,7 +19,7 @@ class Splash extends Component {
                         this site is under meintenance
                         </small>
                         </p>
-                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
+                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWSqmBTGDYngZ?si=2169db81bae34678"
                             width="100%"
                             height="352"
                             frameborder="0"
