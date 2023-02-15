@@ -220,9 +220,10 @@ h6{
     transition: .3s;
     cursor: pointer;
     font: optional;
+    -webkit-appearance: auto;
     appearance: auto;
-    writing-mode: inherit;
     -webkit-writing-mode: horizontal-tb !important;
+    writing-mode: inherit;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
@@ -269,8 +270,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     vertical-align: top;
     text-align: center;
     -moz-transition: color .1s ease-in 0;
-    transition: inherit;
     -webkit-transition: color .1s ease-in 0;
+    transition: inherit;
     display: inline-block;
     font-style: normal;
     font-weight: 400;
@@ -331,10 +332,10 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     max-height: 100px;
     height: auto;
     transition: .2s;
-    transform: translateZ(0);
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .custom-logo :hover{
@@ -511,6 +512,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     box-shadow:  8px 8px 8px rgba(94, 104, 121, .288);
     z-index: 2;
     opacity: .9;
+    -webkit-backdrop-filter: blur(.2rem);
     backdrop-filter: blur(.2rem);
 }
 
@@ -614,6 +616,7 @@ button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=subm
     box-shadow:  8px 8px 8px rgba(94, 104, 121, .288);
     z-index: 2;
     opacity: .9;
+    -webkit-backdrop-filter: blur(.2rem);
     backdrop-filter: blur(.2rem);
 }
 .description{

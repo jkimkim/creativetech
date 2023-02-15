@@ -17,7 +17,7 @@ class Header extends Component {
                             <ul style={{paddingLeft: '0%'}} id="social_menu" className="menu">
                                 <li id="twitter" className="twitter_icon">
                                     <a href="https://twitter.com/Johnklm21">
-                                        <i className="fab fa-twitter"></i>
+                                        <i class="fa-brands fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li id="fb" className="fb_icon">

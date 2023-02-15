@@ -5,13 +5,13 @@ class Testimonials extends Component {
   render() {
     return (
       <React.Fragment>
-        <div class="customer">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="titlepage">
+        <div className="customer">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="titlepage">
                   <h2>
-                    what is say <strong class="pink"> Customer </strong>
+                    what is say <strong className="pink"> Customer </strong>
                   </h2>
                   <span>
                     {" "}
@@ -22,29 +22,29 @@ class Testimonials extends Component {
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
+            <div className="row">
+              <div className="col-md-12">
                 <div
                   id="myCarousel"
-                  class="carousel slide customer_Carousel "
+                  className="carousel slide customer_Carousel "
                   data-ride="carousel"
                 >
-                  <ol class="carousel-indicators">
+                  <ol className="carousel-indicators">
                     <li
                       data-target="#myCarousel"
                       data-slide-to="0"
-                      class="active"
+                      className="active"
                     ></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                   </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="container">
-                        <div class="carousel-caption ">
-                          <div class="row">
-                            <div class="col-md-12">
-                              <div class="test_box">
+                  <div className="carousel-inner">
+                    <div className="carousel-item active">
+                      <div className="container">
+                        <div className="carousel-caption ">
+                          <div className="row">
+                            <div className="col-md-12">
+                              <div className="test_box">
                                 <p>
                                   ipsum dolor sit amet, consectetur adipiscing
                                   elit, sed do eiusmod tempor incididunt ut
@@ -61,14 +61,14 @@ class Testimonials extends Component {
                                   irure dolor in reprehenderit in voluptate
                                   velit{" "}
                                 </p>
-                                <div class="customar_box">
-                                  <div class="veni">
+                                <div className="customar_box">
+                                  <div className="veni">
                                     <i>
                                       <img src="images/costomar.png" alt="#" />
                                     </i>
                                     <h4> veniam, quis </h4>
                                   </div>
-                                  <i class="padd_rightt0">
+                                  <i className="padd_rightt0">
                                     <img src="images/cost.png" alt="#" />
                                   </i>
                                 </div>
@@ -78,12 +78,12 @@ class Testimonials extends Component {
                         </div>
                       </div>
                     </div>
-                    <div class="carousel-item">
-                      <div class="container">
-                        <div class="carousel-caption">
-                          <div class="row">
-                            <div class="col-md-12">
-                              <div class="test_box">
+                    <div className="carousel-item">
+                      <div className="container">
+                        <div className="carousel-caption">
+                          <div className="row">
+                            <div className="col-md-12">
+                              <div className="test_box">
                                 <p>
                                   ipsum dolor sit amet, consectetur adipiscing
                                   elit, sed do eiusmod tempor incididunt ut
@@ -100,14 +100,14 @@ class Testimonials extends Component {
                                   irure dolor in reprehenderit in voluptate
                                   velit{" "}
                                 </p>
-                                <div class="customar_box">
-                                  <div class="veni">
+                                <div className="customar_box">
+                                  <div className="veni">
                                     <i>
                                       <img src="images/costomar.png" alt="#" />
                                     </i>
                                     <h4> veniam, quis </h4>
                                   </div>
-                                  <i class="padd_rightt0">
+                                  <i className="padd_rightt0">
                                     <img src="images/cost.png" alt="#" />
                                   </i>
                                 </div>
@@ -117,12 +117,12 @@ class Testimonials extends Component {
                         </div>
                       </div>
                     </div>
-                    <div class="carousel-item">
-                      <div class="container">
-                        <div class="carousel-caption">
-                          <div class="row">
-                            <div class="col-md-12">
-                              <div class="test_box">
+                    <div className="carousel-item">
+                      <div className="container">
+                        <div className="carousel-caption">
+                          <div className="row">
+                            <div className="col-md-12">
+                              <div className="test_box">
                                 <p>
                                   ipsum dolor sit amet, consectetur adipiscing
                                   elit, sed do eiusmod tempor incididunt ut
@@ -139,14 +139,14 @@ class Testimonials extends Component {
                                   irure dolor in reprehenderit in voluptate
                                   velit{" "}
                                 </p>
-                                <div class="customar_box">
-                                  <div class="veni">
+                                <div className="customar_box">
+                                  <div className="veni">
                                     <i>
                                       <img src="images/costomar.png" alt="#" />
                                     </i>
                                     <h4> veniam, quis </h4>
                                   </div>
-                                  <i class="padd_rightt0">
+                                  <i className="padd_rightt0">
                                     <img src="images/cost.png" alt="#" />
                                   </i>
                                 </div>
@@ -158,28 +158,28 @@ class Testimonials extends Component {
                     </div>
                   </div>
                   <a
-                    class="carousel-control-prev"
+                    className="carousel-control-prev"
                     href="#myCarousel"
                     role="button"
                     data-slide="prev"
                   >
                     <span
-                      class="carousel-control-prev-icon"
+                      className="carousel-control-prev-icon"
                       aria-hidden="true"
                     ></span>
-                    <span class="sr-only">Previous</span>
+                    <span className="sr-only">Previous</span>
                   </a>
                   <a
-                    class="carousel-control-next"
+                    className="carousel-control-next"
                     href="#myCarousel"
                     role="button"
                     data-slide="next"
                   >
                     <span
-                      class="carousel-control-next-icon"
+                      className="carousel-control-next-icon"
                       aria-hidden="true"
                     ></span>
-                    <span class="sr-only">Next</span>
+                    <span className="sr-only">Next</span>
                   </a>
                 </div>
               </div>

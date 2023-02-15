@@ -34,10 +34,10 @@ const goToTop = () => {
 
 backToTopButton.addEventListener("click", goToTop)
 
-const splash = document.querySelector('.splash')
-document.addEventListener('DOMContentLoaded', (e) => {
-  setTimeout(() => {
-    splash.classList.add('display-none'),
-      $('html,body').css('overflow', 'auto')
-  },3000)
-})
+// const splash = document.querySelector('.splash')
+// document.addEventListener('DOMContentLoaded', (e) => {
+//   setTimeout(() => {
+//     splash.classList.add('display-none'),
+//       $('html,body').css('overflow', 'auto')
+//   },3000)
+// })
