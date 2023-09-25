@@ -1,9 +1,0 @@
-{
-    "manifest_version": 3 ,
-    "version": "1.0",
-    "name": "leeds tracker" ,
-    "action": {
-        "default_popup": "lead tracker.html" ,
-        "default_icon" : "img/logo.png"
-    }
-}

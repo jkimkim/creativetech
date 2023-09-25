@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/jkimtech_photo_logo.svg" sizes="any" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a50c0ca46e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Js Recap</title>
+</head>
+
+<body>
+    <div class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar-content">
+                <button id="toggle-sidebar-btn" class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+            <a href="index.html" class="navbar-brand ml-10 ml-sm-20">
+                <img src="assets/jktlogo3.svg" alt="jktlogo2">
+                <span class="d-none d-sm-flex">JKimtech</span>
+            </a>
+            <div class="navbar-content ml-auto">
+                <button class="btn btn-action mr-5" type="button" onclick="halfmoon.toggleDarkMode()">
+                    <i class="fa fa-moon-o" aria-hidden="true"></i>
+                    <span class="sr-only">Toggle dark mode</span>
+                </button>
+                <a href="#" class="btn btn-dark" role="button">Get started</a>
+            </div>
+        </nav>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-menu">
+                <div class="sidebar-content">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="mt-10 font-size-12">
+                        <!-- Press <kbd>/</kbd> to focus -->
+                    </div>
+                </div>
+                <h5 class="sidebar-title">Projects</h5>
+                <div class="sidebar-divider"></div>
+                <a href="index.html" class="sidebar-link sidebar-link-with-icon ">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                    </span>
+                    Home
+                </a>
+                <a href="#" class="sidebar-link sidebar-link-with-icon active">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-terminal" aria-hidden="true"></i>
+                    </span>
+                    Recap
+                </a>
+                <br>
+                <h5 class="sidebar-title">More projects</h5>
+                <div class="sidebar-divider"></div>
+                <a href="blackjack.html" class="sidebar-link sidebar-link-with-icon">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </span>
+                    blackjack
+                </a>
+                <a href="dice.html" class="sidebar-link sidebar-link-with-icon">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-dice" aria-hidden="true"></i>
+                    </span>
+                    Dice/ coin flip
+                </a>
+                <a href="lead tracker/lead tracker.html" class="sidebar-link sidebar-link-with-icon">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-chart-gantt" aria-hidden="true"></i>
+                    </span>
+                    LeadTracker
+                </a>
+                <a href="recap.html" class="sidebar-link sidebar-link-with-icon">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-calculator" aria-hidden="true"></i>
+                    </span>
+                    recap/ calc
+                </a>
+            </div>
+        </div>
+        <!-- Content wrapper -->
+
+        <div class="content-wrapper">
+            <input type="number" id="inputfield2" placeholder="value1" min="0" max="" />
+            <input type="number" id="inputfield3" placeholder="value2" min="0" max="" />
+            <br>
+            <button id="add" onclick="add()">add</button>
+            <button id="subtract" onclick="subtract()">subtract</button>
+            <button id="divide" onclick="divide()">divide</button>
+            <button id="multiply" onclick="multiply()">multiply</button>
+            <br>
+            <div class="result">
+                <span id="sum">sum: </span>
+                <span id="sub">subtract: </span>
+                <span id="div">divide: </span>
+                <span id="mult">multiply: </span>
+            </div>
+
+            <p id="greeting-el"></p>
+            <br>
+            <br>
+            <h1>logical operators</h1>
+            <div class="fruitTable">
+                <p class="apple-shelf">Apple shelf : </p>
+                <p class="mango-shelf">Mango shelf : </p>
+                <p class="other-shelf">other : </p>
+            </div>
+            <div id="box">Open the Box!</div>
+            <div id="container">
+
+            </div>
+        </div>
+        <!-- Navbar fixed bottom -->
+        <nav class="navbar navbar-fixed-bottom">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fa fa-question-circle-o mr-5" aria-hidden="true"></i>
+                        Help
+                    </a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                © Copyright 2022, <a href="https://jkimtech.tech/"> JKimtech</a>
+            </span>
+        </nav>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+    <script src="js/recap.js"></script>
+
+
+</body>
+
+</html>

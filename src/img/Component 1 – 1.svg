@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2010" height="1159.43" viewBox="0 0 2010 1159.43">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5c5571"/>
+      <stop offset="1" stop-color="#530aff" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.021" x2="0.905" y2="0.812" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8c87cf"/>
+      <stop offset="0.219" stop-color="#7271d0"/>
+      <stop offset="1" stop-color="#1723d4"/>
+    </linearGradient>
+    <filter id="Polygon_1" x="210" y="258" width="257" height="294" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.651"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="gray"/>
+    </radialGradient>
+    <filter id="Polygon_3" x="428" y="465" width="423" height="388" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#efeaea" flood-opacity="0.42"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_2" x="240" y="600" width="427" height="447" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#469595"/>
+      <stop offset="1" stop-color="#08d1f1"/>
+    </linearGradient>
+    <filter id="Ellipse_1" x="469" y="267" width="401" height="397" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-color="blue"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#radial-gradient"/>
+    <filter id="Rectangle_1" x="857" y="586" width="157" height="247" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.659"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_5" x="1143" y="270" width="704" height="804" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2c15cb"/>
+      <stop offset="1" stop-color="#222695"/>
+    </radialGradient>
+    <filter id="Rectangle_2" x="1066" y="98" width="356" height="316" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-color="#87adb5" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="0.17" y1="0.35" x2="0.883" y2="0.899" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#60599a"/>
+    </linearGradient>
+    <filter id="Ellipse_2" x="1613" y="133" width="311" height="317" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(90)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="1920" height="1080" fill="url(#linear-gradient)"/>
+    <path id="Path_1" data-name="Path 1" d="M0,303.42H825.7L1203.73,686.425,1084.352,930.155,0,1069.43" opacity="0.78" fill="url(#linear-gradient-2)"/>
+    <g transform="matrix(1, 0, 0, 1, -90, 0)" filter="url(#Polygon_1)">
+      <path id="Polygon_1-2" data-name="Polygon 1" d="M74.534,103.855c17.048-39.375,72.884-39.375,89.932,0l44.889,103.676C223.363,239.885,199.645,276,164.389,276H74.611c-35.256,0-58.974-36.115-44.966-68.469Z" transform="translate(219 264)" fill="#fff" opacity="0.41"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -90, 0)" filter="url(#Polygon_3)" style="mix-blend-mode: darken;isolation: isolate">
+      <path id="Polygon_3-2" data-name="Polygon 3" d="M144.751,66.411c15.984-28.886,57.513-28.886,73.5,0L328.507,265.665C344,293.658,323.751,328,291.758,328H71.242C39.249,328,19,293.658,34.493,265.665Z" transform="translate(458 492)" opacity="0.64" fill="url(#radial-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -90, 0)" filter="url(#Polygon_2)">
+      <path id="Polygon_2-2" data-name="Polygon 2" d="M61.8,114.6c20.7-45.025,84.687-45.025,105.391,0l23.991,52.173c17.669,38.425-10.4,82.232-52.7,82.232H90.509c-42.293,0-70.365-43.807-52.7-82.232Z" transform="translate(339 696)" fill="#fff" opacity="0.69"/>
+    </g>
+    <g id="Polygon_4" data-name="Polygon 4" transform="translate(472 637)" fill="#fff">
+      <path d="M.5,0,1,49H0Z" stroke="none"/>
+      <path d="M 0.4999999701976776 0 L 1 49 L -5.960464477539063e-08 49 L 0.4999999701976776 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -90, 0)" filter="url(#Ellipse_1)">
+      <ellipse id="Ellipse_1-2" data-name="Ellipse 1" cx="101.5" cy="99.5" rx="101.5" ry="99.5" transform="translate(568 363)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -90, 0)" filter="url(#Rectangle_1)" style="mix-blend-mode: color-burn;isolation: isolate">
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" width="139" height="229" rx="69.5" transform="translate(866 592)" opacity="0.59" fill="url(#linear-gradient-4)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -90, 0)" filter="url(#Polygon_5)" style="mix-blend-mode: color-dodge;isolation: isolate">
+      <path id="Polygon_5-2" data-name="Polygon 5" d="M274.685,95.7c15.636-36.22,66.994-36.22,82.629,0l247.56,573.461A45,45,0,0,1,563.56,732H68.44a45,45,0,0,1-41.315-62.835Z" transform="translate(1179 303)" fill="url(#linear-gradient-4)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -90, 0)" filter="url(#Rectangle_2)">
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" width="338" height="298" rx="90" transform="translate(1075 104)" fill="url(#radial-gradient-2)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -90, 0)" filter="url(#Ellipse_2)">
+      <ellipse id="Ellipse_2-2" data-name="Ellipse 2" cx="146.5" cy="149.5" rx="146.5" ry="149.5" transform="translate(1622 139)" opacity="0.4" fill="url(#linear-gradient-6)"/>
+    </g>
+  </g>
+</svg>

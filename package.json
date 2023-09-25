@@ -1,8 +1,51 @@
 {
   "devDependencies": {
-    "webpack-cli": "^4.9.2"
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.18.2",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
   },
   "dependencies": {
-    "bootstrap": "^5.2.0-beta1"
-  }
+    "@babel/preset-react": "^7.17.12",
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.5",
+    "bootstrap": "^5.2.0-beta1",
+    "cli": "^1.0.1",
+    "css-loader": "^6.7.1",
+    "express": "^4.18.1",
+    "file-loader": "^6.2.0",
+    "firebase": "^9.9.4",
+    "g": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "regenerator-runtime": "^0.13.9",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1"
+  },
+  "name": "creativetech",
+  "description": "simple website to play around with and gradually improve\r This is the original code.\r The repo hasn't been updated for a while now.\r Please do not make any changes to the mail branch.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s build",
+    "build": "webpack --mode=development",
+    "start:dev": "webpack-dev-server",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkimkim/creativetech.git"
+  },
+  "author": "john kimiti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkimkim/creativetech/issues"
+  },
+  "homepage": "https://github.com/jkimkim/creativetech#readme"
 }
